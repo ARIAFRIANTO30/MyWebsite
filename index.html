@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website</title>
+	<style>
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption,  tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed,
+		figure, figcaption, footer, header, hgroup,
+		menu , nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/*HTML5 display-role reset for older browser*/
+		article, aside, details, figcaption, figure,
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: &#39;&#39;;
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		/* Slice */
+
+		header {
+			display: inline;
+		}
+
+		.jumbotron{
+			background-color: #ffa900;
+			text-align: center;
+			color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.jumbotron h1 {
+			font-size: 30px;
+			font-weight: 700;
+			padding: 100px 30px;
+		}
+
+		header nav {
+			text-align: center;
+			background-color: #ffa900;
+			padding: 20px;
+		}
+
+		header nav li {
+			display: inline-block;
+		}
+
+		header nav li a:hover {
+			color: #eee;
+			cursor: pointer;
+		}
+
+		main {
+			padding: 20px;
+			overflow: auto;
+		}
+
+		main h1,
+		main h2 {
+			color: #ffa900;
+			font-weight: 700;
+			font-size: 24px;
+			text-align: center;
+			padding: 20px 0;
+		}
+
+		#container {
+			float: left;
+			width: 63%;
+		}
+
+		.card {
+			box-shadow: 0 0 5px 0 #000;
+			border-radius: 25px;
+			padding: 20px;
+			margin: 20px;
+		}
+
+		.card p {
+			text-align: justify;
+			padding: 5px;
+		}
+
+		aside {
+			float: left;
+			width: 30%;
+			text-align: center;
+		}
+
+		aside span {
+			font-weight: bold;
+		}
+
+		aside img {
+			width: 200px;
+		}
+
+		footer {
+			text-align: center;
+			background-color: #ffa900;
+			padding: 30px;
+			color: #fff;
+		}
+
+		footer ul li {
+			display: inline;
+			padding: 10px;
+		}
+
+		footer h2 {
+			font-size: 20px;
+		}
+
+		footer p {
+			font-size: 20px;
+		}
+
+		footer ul {
+			padding: 10px 0;
+		}
+
+		footer ul li a {
+			text-decoration: none;
+			color: #fff;
+		}
+
+		footer ul li a:hover {
+			color: #eee;
+		}
+
+		.featured-image {
+			padding: 20px 0;
+			width: 100%;
+			max-height: 300px;
+			object-fit: contain;
+			object-position: center;
+		}
+
+		@media screen and (max-width: 1000px) {
+			#container,
+			aside {
+				padding: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="jumbotron">
+			<h1>ENTHUSIASTIC</h1>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#article">Article</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#footer">footer</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<main id="article">
+		<div class="container" id="container">
+			<article class="news card">
+				<h1>Tutorial</h1>
+				<img src="image/html5.jpg" alt="HTML5" class="featured-image">
+				<p>Tahukan kalian bahwa dasar dari pembuatan Website yaitu ada pada HTML dan seiring perkembangannya waktu HTML sendiri sudah memiliki beberapa versi yang terbaru sekarang sudah berada di versi 5 dan HTML sendiri diSupport oleh banyak browser kalian bisa mengeceknya di Evolution Of The Web. Pada kesempatan kali saya akan membahas HTML dimulai dari awal agar kalian lebih memahami apa itu HTML.
+				</p>
+				<h2>Pengertian HTML</h2>
+				<p>HTML atau singkatan dari Hyper Text Markup Language adalah bahasa Markup standar untuk dokumen yang dirancang untuk ditampilkan di Web Browser(Wikipedia).</p>
+				<p>Di Code tersebut dapart kalian lihat di tag title dan body kalian bisa menuliskan judul dan content yang akan kalian gunakan untuk lebih lengkapnya tentang dan fungsi dari tag-tag tersebut akan saya buat dalam artikel terpisah.</p>
+				<p>Di Code tersebut dapart kalian lihat di tag title dan body kalian bisa menuliskan judul dan content yang akan kalian gunakan untuk lebih lengkapnya tentang dan fungsi dari tag-tag tersebut akan saya buat dalam artikel terpisah.</p>
+			</article>
+			<article class="news card">
+				<h1>Tutorial</h1>
+				<img src="image/Techbigdream.png" alt="HTML5" class="featured-image">
+				<p>Setelah mempelajari apa itu HTML pada artikel sebelumnya sekarang kita akan langsung membahas Pengertian Tag pada HTML.</p>
+				<p>karena HTML adalah bahasa Text khusus yang terdiri dari pembuka dan penutup.</p>
+				<p>Tag HTML adalah Text khusus yang terdiri daridari pembuka dan penutup. Contoh:
+					<nama tag></nama tag>dimana di penutup tag diawali dengan oleh garis miring atau yang biasa disebut Slash(/).
+				</p>
+				<p>Lalu apa si Fungsi Tag tersebut? Fungsi Tag sendiri ialah membuat text khusus yang ada di dalam tag tersebut.
+				</p>
+			</article>
+		</div>
+		<aside>
+			<section class="about card" id="about">
+				<h1>About</h1>
+				<img src="image/face6.png" alt="Profile">
+				<p><span>Perusahaan:</span> ENTHUSIASTIC</p>
+				<p><span>Founder:</span> ARIAFRIANTO</p>
+				<p><span>Instagram:</span> @Woyrii.30</p>
+			</section>
+		</aside>
+	</main>
+
+	<footer id="footer">
+		<h2>Social Media:</h2>
+		<ul>
+			<li><a href="#Your Link Instagram">Instagram</a></li>
+			<li><a href="#Your Link Whatsapp">Whatsapp</a></li>
+			<li><a href="#Your Link Telegram">Telegram</a></li>
+		</ul>
+		<p>ENTHUSIASTIC &copy; 2020</p>
+
+	</footer>
+
+</body>
+
+</html>
